@@ -6,7 +6,7 @@ public class ThreadsExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//do something
+		//Do something
 		//System.out.println("Hello World");
 		
 		System.out.println("Thread's Time:");
@@ -24,7 +24,7 @@ public class ThreadsExample {
 	}
 }
 
-// Thread created to display message
+// Class created to display message
 class MyThread implements Runnable{
 	
 	private String message;
@@ -35,8 +35,7 @@ class MyThread implements Runnable{
 		this.message = message;
 		this.time = time;
 	}
-	
-	
+		
 	@Override
 	public void run() {
 		
